@@ -169,6 +169,14 @@
   flex: 1;
 }
 
+.singer-detail .inner-actions .inner-heart.active {
+  color: #b90000;
+}
+
+.singer-detail .inner-actions .inner-heart.active i {
+  font-weight: 900;
+}
+
 .singer-detail .inner-avatar {
   width: 100px;
   height: 100px;
@@ -180,7 +188,7 @@
   animation-duration: 12s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  /* animation-play-state: paused; */
+  animation-play-state: paused; 
 }
 
 @keyframes spin {
